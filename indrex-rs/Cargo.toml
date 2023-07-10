@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "index-rs-api",
+    "index-rs-wasm",
+]

@@ -1,0 +1,19 @@
+[package]
+name = "index-rs-wasm"
+version = "0.1.0"
+authors = ["zeleni_kod@proton.me"]
+description = "Demo of index-rs"
+edition = "2018"
+license = "WTFPL"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+ehttp = "0.2.0"
+eframe = "0.19"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+chrono = "0.4.23"
